@@ -1,3 +1,12 @@
+交易所:
+Betfair(England): 37
+LEON: 347
+Smarkets: 562
+
+大公司
+pinnacle: 156
+bet365: 17
+
 当前查询年月：2018_01
 当前总分: -2.91 当前总下注: 8
 10BET 1.0 2

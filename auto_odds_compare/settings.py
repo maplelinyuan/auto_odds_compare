@@ -14,6 +14,7 @@ BOT_NAME = 'auto_odds_compare'
 SPIDER_MODULES = ['auto_odds_compare.spiders']
 NEWSPIDER_MODULE = 'auto_odds_compare.spiders'
 
+# HTTP_PROXY = 'http://127.0.0.1:8123'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'auto_odds_compare (+http://www.yourdomain.com)'
@@ -59,6 +60,7 @@ DOWNLOADER_MIDDLEWARES = {
     'auto_odds_compare.spiders.rotate_useragent.RotateUserAgentMiddleware': 400,
     'scrapy_splash.SplashCookiesMiddleware': 723,
     'scrapy_splash.SplashMiddleware': 725,
+    # 'auto_odds_compare.spiders.rotate_proxy.ProxyMiddleware': 410,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
 }
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
